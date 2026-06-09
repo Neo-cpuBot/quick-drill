@@ -8,6 +8,12 @@
   "craftTime": 1.0,
   "itemCapacity": 50,
   "alwaysUnlocked": true,
+  "category": "crafting",
+  "research": "silicon-smelter",
+  "requirements": [
+    "copper/10",
+    "lead/10"
+  ],
   "consumes": {
     "power": 0.5,
     "items": [
@@ -15,7 +21,5 @@
       "sand/4"
     ]
   },
-  "outputItem": "silicon/5",
-  "category": "production",
-  "research": "silicon-smelter"
+  "outputItem": "silicon/5"
 }
