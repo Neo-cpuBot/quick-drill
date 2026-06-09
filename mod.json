@@ -1,0 +1,8 @@
+{
+  "name": "Quick-Drill",
+  "displayName": "Proyecto Quick-drill",
+  "author": "TuUsuario",
+  "description": "Mi primer mod de Mindustry para crear un taladro personalizado.",
+  "version": "1.0",
+  "minGameVersion": "146"
+}
