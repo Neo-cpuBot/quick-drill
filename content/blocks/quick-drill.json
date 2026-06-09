@@ -1,0 +1,14 @@
+{
+  "type": "Drill",
+  "name": "Quick Drill",
+  "description": "Un taladro modificado diseñado para extraer materiales a una velocidad ridícula.",
+  "size": 2,
+  "tier": 3,
+  "drillTime": 65,
+  "hasPower": false,
+  "requirements": [
+    { "item": "copper", "amount": 15 }
+  ],
+  "category": "production",
+  "research": "mechanical-drill"
+}
