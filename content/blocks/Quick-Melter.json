@@ -1,0 +1,21 @@
+{
+  "type": "GenericCrafter",
+  "name": "Horno Veloz",
+  "description": "Silicon rápido.",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 1.0,
+  "itemCapacity": 50,
+  "alwaysUnlocked": true,
+  "consumes": {
+    "power": 0.5,
+    "items": [
+      "coal/2",
+      "sand/4"
+    ]
+  },
+  "outputItem": "silicon/5",
+  "category": "crafting",
+  "research": "silicon-smelter"
+}
