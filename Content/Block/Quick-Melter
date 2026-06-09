@@ -1,1 +1,20 @@
-y
+{
+  "type": "GenericCrafter",
+  "name": "Quick-Melter",
+  "description": "Procesa silicio a una velocidad ridícula.",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 1.0,
+  "itemCapacity": 50,
+  "consumes": {
+    "power": 0.5,
+    "items": [
+      "coal/2",
+      "sand/4"
+    ]
+  },
+  "outputItem": "silicon/5",
+  "category": "crafting",
+  "research": "silicon-smelter"
+}
