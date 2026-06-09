@@ -1,0 +1,25 @@
+{
+  "type": "GenericCrafter",
+  "name": "Prensa Veloz",
+  "description": "Produce metacristal a velocidad ridícula.",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 1.0,
+  "itemCapacity": 50,
+  "alwaysUnlocked": true,
+  "category": "crafting",
+  "research": "kiln",
+  "requirements": [
+    "copper/10",
+    "lead/10"
+  ],
+  "consumes": {
+    "power": 0.5,
+    "items": [
+      "copper/1",
+      "sand/9"
+    ]
+  },
+  "outputItem": "metaglass/5"
+}
