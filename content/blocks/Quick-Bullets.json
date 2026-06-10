@@ -1,0 +1,36 @@
+{
+  "type": "ItemTurret",
+  "name": "Arma Definitiva",
+  "description": "Una máquina de asar enemigos. Consume carbón y escupe fuego concentrado.",
+  "size": 1,
+  "health": 1000,
+  "range": 700,
+  "reload": 4,
+  "inaccuracy": 5,
+  "shootCone": 50,
+  "targetAir": false,
+  "targetGround": true,
+  "alwaysUnlocked": true,
+  "category": "turret",
+  "research": "scorch",
+  "requirements": [
+    "copper/1",
+  ],
+  "ammoTypes": {
+    "copper": {
+      "type": "BasicBulletType",
+      "damage": 250,
+      "speed": 4.5,
+      "lifetime": 28,
+      "pierce": true,
+      "status": "burn",
+      "makeFire": false,
+      "shootEffect": "shootPyraFlame",
+      "hitEffect": "hitFlameSmall",
+      "despawnEffect": "none",
+      "frontColor": "ffaa55",
+      "backColor": "ff5500",
+      "trailColor": "ffaa55"
+    }
+  }
+}
