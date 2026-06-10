@@ -23,7 +23,6 @@
       "speed": 4.5,
       "lifetime": 28,
       "pierce": true,
-      "status": "burn",
       "makeFire": false,
       "shootEffect": "shootPyraFlame",
       "hitEffect": "hitFlameSmall",
